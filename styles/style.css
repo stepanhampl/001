@@ -1,10 +1,16 @@
 * {
     box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 body {
     margin: 0;
     padding: 0;
+}
+
+main {
+    margin-left: .5rem;
+    margin-right: 0.5rem
 }
 
 .navbar {
@@ -14,7 +20,7 @@ body {
     background-color: black;
     color: white;
     position: sticky;
-    top:0;
+    top: 0;
     border: .15rem solid black;
     box-sizing: border-box;
 }
@@ -85,20 +91,51 @@ body {
         width: 100%;
     }
     .navbar {
-        flex-direction:column;
+        flex-direction: column;
         align-items: flex-start;
     }
-    .navbar-links ul{
+    .navbar-links ul {
         width: 100%;
         flex-direction: column;
     }
-    .navbar-links li{
+    .navbar-links li {
         text-align: center;
     }
-    .navbar-links li a{
+    .navbar-links li a {
         padding: .5rem 1rem;
     }
-    .navbar-links.active{
+    .navbar-links.active {
         display: flex;
+    }
+}
+
+@media(min-width: 30rem){
+    main{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+@media(min-width: 40rem){
+    main{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
+@media(min-width: 50rem){
+    main{
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+}
+@media(min-width: 60rem){
+    main{
+        margin-left: 8rem;
+        margin-right: 8rem;
+    }
+}
+@media(min-width: 70rem){
+    main{
+        margin-left: 16rem;
+        margin-right: 16rem;
     }
 }
