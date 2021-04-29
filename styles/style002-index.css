@@ -8,8 +8,9 @@
     height: 10vh;
     /* border-top: 2px solid blue;
     border-bottom: 2px solid brown; */
-    width: 1000vw;
+    width: 1100vw;
     font-size: 8vh;
+    /* margin-left: -500vh; */
 }
 .welcome{
     width: 100vw;
