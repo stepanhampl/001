@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.row {
+    box-sizing: border-box;
+    height: 10vh;
+    /* border-top: 2px solid blue;
+    border-bottom: 2px solid brown; */
+    width: 1000vw;
+    font-size: 8vh;
+}
+.welcome{
+    width: 100vw;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14vh;
+    mix-blend-mode: difference;
+}
+
+.button{
+    font-size: 5vh;
+    width: 100vw;
+}
+
+.black{
+    color: white;
+    background-color: black;
+}
